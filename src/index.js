@@ -1,4 +1,3 @@
-import './polyfills-loader';
 import '@vaadin/vaadin-button';
 import '@vaadin/vaadin-grid';
 import '@vaadin/vaadin-text-field';
