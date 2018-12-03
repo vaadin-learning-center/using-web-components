@@ -1,0 +1,23 @@
+{
+  "copy": {
+    "prefix": "copy",
+    "body": [
+      "new CopyWebpackPlugin([",
+      "  {",
+      "    context: 'node_modules/@webcomponents/webcomponentsjs',",
+      "    from: '**/*.js',",
+      "    to: 'webcomponents'",
+      "  }",
+      "])"
+    ]
+  },
+  "queryselectors": {
+    "prefix": "queryselectors",
+    "body": [
+      "const firstNameField = document.querySelector('#firstName');",
+      "const lastNameField = document.querySelector('#lastName');",
+      "const addButton = document.querySelector('#addButton');",
+      "const grid = document.querySelector('#grid');"
+    ]
+  }
+}
